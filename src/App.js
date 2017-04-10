@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Counter from './01-counter/Counter'
+import CurrentTime from './level1/CurrentTime'
 
 class App extends Component {
   render() {
     return (
-      <Counter />
+      <CurrentTime />
     );
   }
 }
