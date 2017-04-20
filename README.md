@@ -28,6 +28,24 @@ Steps:
 + add "Add Counter" button
 + add "Remove Counter" button
 
+Tips:
++ If Counter has state
+```
+<button value="Add Counter" onClick={this.addCounter}>
+
+<button value="Rem Counter" onClick={() => removeCounter(ind)} />
+
+<button value="+" onClick={this.increment} />
+```
++ If you store Counter value in parent's state
+```
+<button value="Add Counter" onClick={this.addCounter}>
+
+<button value="Rem Counter" onClick={() => removeCounter(ind)} />
+
+<button value="+" onClick={() => incrementCounter(ind)} />
+```
+
 ## 3L - Todo List with timers
 You should be able to:
 + ...see __Simple Todo List__
