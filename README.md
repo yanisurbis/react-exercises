@@ -21,6 +21,13 @@ You should be able to:
 + add counter with 0 value by default
 + remove specific counter
 
+Steps:
++ create state & check if your render function renders counters properly (should work with several counters)
++ add + button for every counter & add handler (check through logging || react dev-tools that state changes)
++ add - button
++ add "Add Counter" button
++ add "Remove Counter" button
+
 ## 3L - Todo List with timers
 You should be able to:
 + ...see __Simple Todo List__
