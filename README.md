@@ -48,13 +48,13 @@ Tips:
 
 ## 3L - Todo List with timers
 You should be able to:
-+ ...see __Simple Todo List__
++ look at __Simple Todo List__
 + every item has it's own timer
 + activate this timer with _start_ button
 + deactivate this timer with _stop_ button
 
 ## 4L - Use Gif API
-+ ...see __level4__
++ look at ``src/level4``
 + app should fetch some data on user's action
 + data is fetched based on some input's value
 + use flexbox
