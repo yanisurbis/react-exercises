@@ -1,12 +1,11 @@
-import React, { Component } from 'react';
-import './App.css';
-import CurrentTime from './level1/CurrentTime'
+import React, { Component } from "react";
+import "./App.css";
+// import Giphy from './level4/Giphy'
+import ReduxApp from "./level9/App";
 
-class App extends Component {
+class App extends React.Component {
   render() {
-    return (
-      <CurrentTime />
-    );
+    return <ReduxApp />;
   }
 }
 
